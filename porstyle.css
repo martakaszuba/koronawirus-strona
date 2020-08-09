@@ -1,0 +1,59 @@
+
+
+ #nav {
+    margin:0;
+  }
+
+  a:hover {
+    opacity:0.8;
+  }
+  
+  .navbar-brand {
+    margin-right:30px;
+  }
+
+#data {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin:5px auto;
+}
+
+#data td, #data th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#data tr:nth-child(even){background-color: #f2f2f2;}
+
+#data tr:hover {background-color: #ddd;}
+
+#data th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(45, 78, 139);
+  color:white;
+}
+
+#main {
+  padding:15px;
+  text-align:center;
+}
+
+#alert {
+  margin-top:20px;
+}
+
+select {
+  margin-right:10px;
+  padding:5px;
+}
+
+#nag {
+margin-bottom:30px;
+}
+
+h4 {
+  margin-bottom:10px;
+}

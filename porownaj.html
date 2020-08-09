@@ -1,0 +1,30 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="porstyle.css">
+<title>Porównaj kraje Marta Kaszuba</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+    <a class="navbar-brand" href="index.html">Koronawirus statystyki</a>
+    <a class="navbar-brand" href="porownaj.html">Porównaj kraje</a>
+    <a class="navbar-brand" href="omnie.html">O mnie</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    </nav>
+  <div id="main">
+    <p id ="nag">Porównaj ze sobą dwa różne kraje pod względem liczby zachorowań i zgonów na Koronawirusa</p>
+    <select id="f">
+      </select>
+      <select id="s">
+      </select>
+      <button id ="check" class="btn btn-info">Sprawdź</button>
+      <p id="alert"></p>
+    </div>
+      <table id="data"></table>
+</body>
+<script src="porscript.js"></script>
+</html>

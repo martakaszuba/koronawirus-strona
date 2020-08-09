@@ -1,0 +1,27 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel ="stylesheet" href="style.css">
+<title>Koronawirus statystyki Marta Kaszuba</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+    <a class="navbar-brand" href="index.html">Koronawirus statystyki</a>
+    <a class="navbar-brand" href="porownaj.html">Porównaj kraje</a>
+    <a class="navbar-brand" href="omnie.html">O mnie</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    </nav>
+  <div id="main">
+  <button class="btn btn-light" id ="a">Sortuj alfabetycznie</button>
+  <button class="btn btn-light" id ="d">Sortuj według liczby zgonów</button>
+  <button class="btn btn-light" id ="inf">Sortuj według liczby zakażonych</button>
+  <button class="btn btn-light" id ="day">Sortuj według dziennych zakażeń</button>
+</div>
+    <table id="data"></table>
+</body>
+<script src ="script.js"></script>
+</html>
